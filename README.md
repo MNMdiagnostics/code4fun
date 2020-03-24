@@ -2,9 +2,9 @@
 
 ## Cześć!
 
-Przed Tobą siedem zadań. Rozwiąż ile możesz zapisując skrypt/program, i grafiki/tabelki w katalogu w repozytorium GH. Nie uploaduj tam plików VCF większych niż 10MB.
+Przed Tobą siedem zadań. Rozwiąż ile możesz zapisując skrypt/program, i grafiki/tabelki w katalogu w Twoim repozytorium GitHub. Nie uploaduj tam plików VCF większych niż 10MB.
 
-Zadania są niezależne od siebie, nie musisz ich rozwiązywać po kolei. Dwa pierwsze to zadania na rozgrzewkę. Pamiętaj, aby commitować (i pushować) nie rzadziej niż po każdym zadaniu (będziemy o tym przypominać po kazdym zadaniu). Ostatnie zadanie wymaga cierpliwości i czasu dlatego wykonaj je jako ostatnie.
+Zadania są niezależne od siebie, nie musisz ich rozwiązywać po kolei. Sposób rozwiązania jest dowolny - można skorzystac z istniejących narzędzi lub napisać własny skrypt/program. Dwa pierwsze to zadania na rozgrzewkę. Ostatnie to zadanie z gwiazdką i może pochłonąć więcej czasu. Pamiętaj, aby commitować (i pushować) nie rzadziej niż po każdym zadaniu (przypomnienia o tym są również poniżej). 
 
 ## Połamania klawiatury!
  
@@ -35,7 +35,7 @@ Kolejne zadania wykorzystują jako plik wejściowy plik w formacie VCF skompreso
 
     Commit and push!
 
-5. Z pliku wejściowego wybierz warianty, dla których pole "FILTER" zawiera wartość PASS. Spośród tych wariantów policz ile jest heterozygotycznych (genotyp 0/1) z częstością występowania w populacji (allele frequency; AF) mniejszą od 0.01. Wykorzystaj do tego adnotację INFO:GoNLv5_AF.
+5. Z pliku wejściowego wybierz warianty, dla których pole "FILTER" zawiera wartość PASS. Spośród tych wariantów policz ile jest heterozygotycznych (genotyp 0/1) z częstością występowania w populacji (Allele Frequency) mniejszą od 0.01. Do selekcji wariantów o niskiej częstości wykorzystaj adnotację INFO:GoNLv5_AF.
 
     Commit and push!
 
@@ -48,6 +48,4 @@ Kolejne zadania wykorzystują jako plik wejściowy plik w formacie VCF skompreso
     Commit and push!
 
 
-To już koniec zadań rekrutacyjnych, które dla Ciebie przygotowaliśmy. Mamy nadzieję, że udało Ci się wykonać wszystkie je wszystie. W razie wątpliwości odpowiedzi udostępnimy najpóźniej na początu przyszłego tygodnia.
-
-Tymczasem dzięki za dzisiaj i powodzenia w rekrutacji!
+To już koniec zadań, które dla Ciebie przygotowaliśmy. Przykładowe rozwiązania udostępnimy na początu przyszłego tygodnia.
