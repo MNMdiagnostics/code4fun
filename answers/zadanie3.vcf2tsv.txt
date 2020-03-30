@@ -1,0 +1,2 @@
+Tool: https://github.com/everestial/VCF-Simplify
+Command: python3 VcfSimplify.py SimplifyVCF -toType table -inVCF CPCT02220079.annotated.processed.vcf -outFile CPCT02220079.annotated.processed.tsv
