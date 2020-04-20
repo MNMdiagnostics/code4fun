@@ -9,13 +9,12 @@ while read line; do
 	count=2
 	while [ "$over" == "0" ]; do
 		check=$(echo $line | awk -v temp=$count -F ";" '{print $temp}')
-		echo $check
 		check2=$(echo $check | grep -c "DP=")
 		if [ "$check2" == "1" ]; then
-			echo $line | awk -v temp=$count -F ";" 'BEGIN {OFS = ","}{print $1, $temp}' >> temp.csv
-			cat output.csv temp.csv >> temp2.csv
-			mv temp2.csv output.csv
-			rm temp.csv
+			DP2=$(echo $line | awk -v temp=$count -F ";" '{print $temp}')
+			DP=$(echo $DP2 | tail -c +4)
+			Chr=$(echo $line | awk -F ";" '{print $1}')
+			echo "$Chr,$DP" >> output.csv
 			over=1
 		else
 			count=`expr $count + 1`
