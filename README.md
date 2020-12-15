@@ -24,7 +24,7 @@ funkcja(“RabarbArka”) -> 3 (a,b i r)
 
     Commit and push!
 
-Kolejne zadania wykorzystują jako plik wejściowy plik w formacie VCF skompresowany bgzip’em:  [CPCT02220079.annotated.processed.vcf.gz](https://drive.google.com/file/d/1kyswBK5vd3GrLNSY8ZKmw7Xzc9DidCKe/view?usp=sharing). W pliku są adnotacje wariantów wygenerowane programami [SnpEff/SnpSift](http://snpeff.sourceforge.net/SnpSift.html). Jeżeli przetwarzanie pliku będzie stwarzało problemy ze względu na jego rozmiar - znajdź kreatywne rozwiązanie.
+Kolejne zadania wykorzystują jako plik wejściowy plik w formacie VCF skompresowany bgzip’em:  [CPCT02220079.annotated.processed.vcf.gz](https://drive.google.com/file/d/1jad37I6pt77FEddmhYS6kQ4zzvYRcJtI). W pliku są adnotacje wariantów wygenerowane programami [SnpEff/SnpSift](http://snpeff.sourceforge.net/SnpSift.html). Jeżeli przetwarzanie pliku będzie stwarzało problemy ze względu na jego rozmiar - znajdź kreatywne rozwiązanie.
 
 
 3. Stwórz plik VCF, który będzie zawierał wszystkie warianty z pliku wejściowego zawierające się pomiędzy chr12:112,204,691 a chr12:112,247,789. Komendę/program oraz wynikowy plik VCF umieść w repozytorium.
