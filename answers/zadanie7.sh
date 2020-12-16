@@ -1,4 +1,0 @@
-# Variant consequences: http://www.ensembl.org/info/genome/variation/prediction/predicted_data.html
-# Correct consequence is called "protein_altering_variant" (http://www.sequenceontology.org/miso/current_svn/term/SO:0001818)
-
-java -jar /data/Seqtools/SnpSift_4.3s.jar filter "(ANN[*].EFFECT has 'missense_variant') | (ANN[*].EFFECT has 'frameshift_variant') | (ANN[*].EFFECT has 'conservative_inframe_deletion') | (ANN[*].EFFECT has 'disruptive_inframe_deletion') | (ANN[*].EFFECT has 'inframe_deletion') | (ANN[*].EFFECT has 'inframe_insertion')" CPCT02220079.annotated.processed.vcf > CPCT02220079.annotated.processed.zadanie7.vcf

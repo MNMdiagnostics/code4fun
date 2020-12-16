@@ -1,3 +1,0 @@
-# http://snpeff.sourceforge.net/SnpSift.html#filter
-
-java -jar /data/Seqtools/SnpSift_4.3s.jar filter "(ANN[*].EFFECT has 'missense_variant') | (ANN[*].EFFECT has 'frameshift_variant') | (ANN[*].EFFECT has 'conservative_inframe_deletion') | (ANN[*].EFFECT has 'disruptive_inframe_deletion') | (ANN[*].EFFECT has 'inframe_deletion') | (ANN[*].EFFECT has 'inframe_insertion')" CPCT02220079.annotated.processed.vcf > CPCT02220079.annotated.processed.zadanie7.vcf
