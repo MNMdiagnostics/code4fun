@@ -1,0 +1,65 @@
+CHROM
+POS
+REF
+ALT
+Consequence
+IMPACT
+SYMBOL
+Feature_type
+BIOTYPE
+EXON
+INTRON
+HGVSc
+HGVSp
+Amino_acids
+Existing_variation
+# STRAND # test comment
+# FLAGS
+PICK
+CANONICAL
+# CCDS
+# ENSP
+# SOURCE
+GENE_PHENO
+gnomAD_AF
+CLIN_SIG
+HIGH_INF_POS
+HMF_OVA
+HMF_OVA_AN
+HMF_OVA_AC
+HMF_OVA_AF
+Format
+NORMAL
+TUMOUR
+Level OnkoKB
+Alterations
+Tumor Type
+Drugs
+Freq_PanT
+# oncoKB_cancer_gene_PanT
+Freq_OVA
+# oncoKB_cancer_gene_OVA
+Freq_BREAST
+# oncoKB_cancer_gene_OVA_y
+# oncoKB_cancer_gene_OVA_y.1
+# oncoKB_cancer_gene_OVA_y.2
+Freq_PANCREAS
+# oncoKB_cancer_gene_OVA_y.3
+# oncoKB_cancer_gene_OVA_y.4
+# oncoKB_cancer_gene_OVA_y.5
+Freq_PROSTATE
+# oncoKB_cancer_gene_OVA_y.6
+# oncoKB_cancer_gene_OVA_y.7
+# oncoKB_cancer_gene_OVA_y.8
+FATHMM_pred # moved to the end
+FATHMM_score # moved to the end
+PROVEAN_converted_rankscore # moved to the end
+PROVEAN_pred # moved to the end
+PROVEAN_score # moved to the end
+REVEL_rankscore # moved to the end
+REVEL_score # moved to the end
+SIFT_converted_rankscore # moved to the end
+SIFT_pred # moved to the end
+SIFT_score # moved to the end
+VEST4_rankscore # moved to the end
+VEST4_score # moved to the end

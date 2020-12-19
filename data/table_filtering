@@ -1,0 +1,2 @@
+first_sheet: (IMPACT in ["HIGH", "MODERATE"]) and (PICK == 1) and (oncoKB_cancer_gene_PanT == "Yes")
+second_sheet: (IMPACT in ["HIGH", "MODERATE"]) and (PICK == 1)
