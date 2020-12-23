@@ -11,7 +11,7 @@ def little_bit_slower():
 
 def very_slow():
     nums = []
-    for i in range(1_000):
+    for i in range(100):
         for j in range(1_000):
             for z in range(1_000):
             	nums.append(i + j + z)
